@@ -25,7 +25,7 @@ public class DemoDataCommandLineRunner implements CommandLineRunner {
         Question q2 = new Question();
         q2.setQuestion("What type of berry is this?");
         q2.setCorrectAnswer("Blueberry");
-        q2.setDistractors(List.of("Raspberry", "Blueberry", "Gooseberry"));
+        q2.setDistractors(List.of("Raspberry", "Blackberry", "Gooseberry"));
         q2.setImageUrl("https://res.cloudinary.com/dswezohlv/image/upload/v1605042271/quiz-maker/unvziwrp1khcjksdwr4x.jpg");
         Question q3 = new Question();
         q3.setQuestion("What type of berry is this?");
