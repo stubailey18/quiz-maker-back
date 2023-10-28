@@ -1,6 +1,7 @@
 package stubailey18.quizmakerback;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 import java.util.List;
 
 @Entity

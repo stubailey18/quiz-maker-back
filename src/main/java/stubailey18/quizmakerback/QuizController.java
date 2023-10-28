@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/quizzes")
-@CrossOrigin
+@CrossOrigin(origins = "https://stubailey18.com")
 public class QuizController {
 
     @Autowired
